@@ -1,6 +1,6 @@
 import sqlite3
 
-# apontando qual arquivo vai ser utilizado e passando para uma nova variável
+# apontando qual arquivo vai ser utilizado e passando para uma nova variavel
 conexao = sqlite3.connect('Banco de Dados')
 cursor = conexao.cursor()
 
